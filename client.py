@@ -1,7 +1,7 @@
 from socket import socket, AF_INET, SOCK_STREAM
 
 def main():
-    server_address = ('localhost', 45000)
+    server_address = ('localhost', 45000) #172.16.16.101
     client_socket = socket(AF_INET, SOCK_STREAM)
     client_socket.connect(server_address)
 
